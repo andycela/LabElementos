@@ -16,7 +16,7 @@ La Pico recibe comandos de texto escritos en el shell de Thonny (USB), los enví
 |---|---|---|
 | LED digital | GP13 | Encendido/apagado |
 | LED PWM | GP15 | Brillo 0–100 % (1 kHz) |
-| Botón | GP16 | Entrada con PULL_UP (suelto = 1, presionado = 0) |
+| Botón | GP16 | Funcionamiento como latch (presiono una vez =1, vuelvo a presionarlo= 0), y se repite ese ciclo|
 | ADC | GP26 / ADC0 | Sensor o potenciómetro 0–3.3 V |
 | UART0 TX | GP0 | Transmisión (9600 baud, 8N1) |
 | UART0 RX | GP1 | Recepción; **jumper GP0 ↔ GP1** (loopback) |
